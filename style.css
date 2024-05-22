@@ -1,3 +1,86 @@
 body {
     margin: 0;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 0 25px 0;
+}
+
+.title {
+    padding: 200px 100px 8px 100px;
+    font-family: "Karla", sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+
+#title-1 {
+    color: white;
+}
+
+#title-2 {
+    color: #10B981;
+}
+
+.description {
+    color: #D5D4D8;
+    text-align: left;
+    margin: 0 0 50px 100px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 400;
+}
+
+button {
+    margin: 0 100px;
+    padding: 15px 25px;
+    background-color: #10B981;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.password {
+    display: flex;
+    color: #55F991;
+    margin-left: 100px;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 500px;
+    font-family: "Inter", sans-serif;
+}
+
+.pwd-container {
+    margin-top: 15px;
+    width: 230px;
+    background-color: #273549;
+    border-radius: 5px;
+}
+
+p {
+    padding: 3px 40px;
+}
+
+hr {
+    color: #2F3E53;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 1000px;
 }
